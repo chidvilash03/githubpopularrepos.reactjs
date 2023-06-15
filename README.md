@@ -1,4 +1,4 @@
-In this project, let's build a **Github Popular Repos** by applying the concepts we have learned till now.
+In this project,I built a **Github Popular Repos** 
 
 ### Refer to the images below:
 
@@ -27,22 +27,13 @@ In this project, let's build a **Github Popular Repos** by applying the concepts
 
 </details>
 
-### Set Up Instructions
-
-<details>
-<summary>Click to view</summary>
-
-- Download dependencies by running `npm install`
-- Start up the app using `npm start`
-</details>
-
 ### Completion Instructions
 
 <details>
-<summary>Functionality to be added</summary>
+<summary>Functionality added</summary>
 <br/>
 
-The app must have the following functionalities
+The app had the following functionalities
 
 - When the app is opened initially,
 
@@ -117,54 +108,12 @@ Returns a response containing the list of repositories
 <summary>Implementation Files</summary>
 <br/>
 
-Use these files to complete the implementation:
-
 - `src/components/GithubPopularRepos/index.js`
 - `src/components/GithubPopularRepos/index.css`
 - `src/components/LanguageFilterItem/index.js`
 - `src/components/LanguageFilterItem/index.css`
 - `src/components/RepositoryItem/index.js`
 - `src/components/RepositoryItem/index.css`
-</details>
-
-### Quick Tips
-
-<details close>
-<summary>Click to view</summary>
-<br>
-
-- To display the animated loader, we need to import the `Loader` component using the below statement
-
-  ```jsx
-  import Loader from 'react-loader-spinner'
-  ```
-
-- In order to display the given animated loader, pass the `type` and `color` props to the `Loader` component with values as **ThreeDots** and **#0284c7**, respectively
-
-  ```jsx
-  <Loader type="ThreeDots" color="#0284c7" height={80} width={80} />
-  ```
-
-    <br/>  
-  </details>
-
-### Important Note
-
-<details>
-<summary>Click to view</summary>
-
-<br/>
-
-**The following instructions are required for the tests to pass**
-
-- Wrap the `Loader` component with an HTML container element and add the `data-testid` attribute value as **loader** to it
-
-  ```jsx
-  <div data-testid="loader">
-    <Loader type="ThreeDots" color="#0284c7" height={80} width={80} />
-  </div>
-  ```
-
 </details>
 
 ### Resources
@@ -200,10 +149,3 @@ Use these files to complete the implementation:
 - Lobster
 
 </details>
-
-> ### _Things to Keep in Mind_
->
-> - All components you implement should go in the `src/components` directory.
-> - Don't change the component folder names as those are the files being imported into the tests.
-> - **Do not remove the pre-filled code**
-> - Want to quickly review some of the concepts you’ve been learning? Take a look at the Cheat Sheets.
